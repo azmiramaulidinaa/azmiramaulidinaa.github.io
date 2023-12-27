@@ -1,0 +1,96 @@
+{
+  "profile": {
+    "fullName": "Azmira Maulidina",
+    "shortName": "Mira",
+    "title": "I’m Azmira Maulidina <br /> Project Management Officer based in Jakarta.",
+    "social": {
+      "github": "https://github.com/azmiramaulidinaa",
+      "Instagram": "azmiroarx",
+      "linkedin": "https://www.linkedin.com/in/adrian-m-ab602a13b/?original_referer="
+    },
+    "contact": {
+      "whatsapps": "https://wa.me/6281290989721",
+      "phone": "081290989721"
+    },
+    "count": {
+      "experience": 5,
+      "projects": 30,
+      "client": 20
+    },
+    "aboutMe": "<p> Dedicated and results-oriented Project Management Officer with 3 years of experience in overseeing and optimizing project processes. Proven track record of ensuring project success through strategic planning, risk management, and collaboration. Seeking to contribute my skills in tech industries as a PMO.</p>",
+    "resumeLink": "menyusul",
+    "coreSkills": [
+      "Project Planning and Execution",
+      "Risk Management",
+      "Communication and Stakeholder Management",
+      "Resource Allocation and Optimization",
+      "Process Improvement",
+      "Analytical and Problem-Solving Skills",
+      "Training and Development",
+      "Adaptability and Flexibility",
+      "Organizational Skills",
+      "Negotiation Skills",
+      "Technology Proficiency"
+    ],
+    "workflows": [
+      "Agile Development & Scrum Method",
+      "Systems Development Life Cycle",
+      "Process Mapping",
+      "Standardization",
+      "Continuous Improvement",
+      "Cross-Functional Collaboration",
+      "Metrics and KPIs",
+      "Training and Documentation"
+    ],
+    "education": [
+      {
+        "period": "2017 - 2023",
+        "location": "State University Of Jakarta",
+        "title": "Bachelor Of Education",
+        "value": "3.79"
+      },
+      {
+        "period": "2013 - 2016",
+        "location": "SMA Negeri 44 Jakarta",
+        "value": "8.5"
+      }
+    ],
+    "experience": [
+      {
+        "period": "August 2022 - Present",
+        "location": "PT. Kalacakra Teknologi (Cakratech)",
+        "title": "Project Management Officer",
+        "description": "As a senior frontend web developer specializing in the use of the Angular programming language, I assist in the development of micro-based applications for clients, especially Enterprise Products, using clean architecture methods, trunk-based development and test-based development practices. Apart from that, I use Scrum for project management. Products that focus on finance and invoicing."
+      },
+      {
+        "period": "June 2021 - August 2022",
+        "location": "PT. Smartfren Telecom Tbk",
+        "title": "Research & Development",
+        "description": "As a senior frontend web developer who specializes in using the Angular programming language, I assist in the development of micro-based applications for clients, particularly Telkomsel, utilizing clean architecture methods, trunk-based development, and test-driven development practices. Additionally, I employ Scrum for project management."
+      },
+      {
+        "period": "January 2020 - February 2021",
+        "location": "Area Berkarya Abadi",
+        "title": "Project Management Officer",
+        "description": "As a technology manager, my responsibilities include conducting research to implement the latest technological advancements and leading a team of frontend web developers skilled in Angular, backend developers using Java Spring Boot, and mobile application developers proficient in Flutter. I also oversee server management using the Google Cloud Console and maintain direct coordination with the CEO to ensure efficient company management."
+      },
+      {
+        "period": "January 2020 - June 2020",
+        "location": "Pusat Sumber Belajar Universitas Negeri Jakarta",
+        "title": "Learning Designer",
+        "description": "As a web frontend developer skilled in Angular, I specialize in developing micro-based applications, including work management and data research applications. I also implement Scrum project management methodologies to ensure the success of my projects."
+      },
+      {
+        "period": "April 2019 - January 2020",
+        "location": "CV. Inti Multi Solusi",
+        "title": "Project Management Officer",
+        "description": "As a full-stack programmer, I have expertise in using various programming languages and frameworks such as Laravel, CodeIgniter, Android Native, and Node.js. My work involves developing various applications and IT solutions for clients, with a focus on government clients such as the Ministry of Communication and Informatics, the Ministry of Investment, and the Ministry of Social Affairs."
+      }
+    ],
+    "award": [
+      "Trainer in interactive module development activities for PT.Bank Central Asia Tbk (BCA) employees.",
+      "As a facilitator in training to develop interactive teaching materials for lecturers at Krida Wacana Christian University (UKRIDA) Jakarta",
+      "Presenter at the webinar 'Redefining Emerging Technology for Learning: Optimizing Education, Through Distance Learning and Webinar in Indonesia', Jakarta"
+    ]
+  }
+}

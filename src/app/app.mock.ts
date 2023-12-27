@@ -1,0 +1,229 @@
+import { ProfileCollection } from './app.collection';
+
+export const DataCollection: ProfileCollection = {
+  fullName: 'Adrian Milano',
+  shortName: 'Adrian',
+  title: 'I’m Adrian Milano <br /> Senior Frontend Engineer based in Jakarta.',
+  social: {
+    github: 'https://github.com/arm02',
+    gitlab: 'https://gitlab.com/arm02',
+    linkedin:
+      'https://www.linkedin.com/in/adrian-m-ab602a13b/?original_referer=',
+  },
+  contact: {
+    whatsapps: 'https://wa.me/628112175175',
+    phone: '08112175175',
+  },
+  count: {
+    experience: 5,
+    projects: 30,
+    client: 20,
+  },
+  aboutMe: '',
+  resumeLink:
+    'https://github.com/arm02/resume/blob/main/CV%20Adrian%20Milano.pdf',
+  coreSkills: [
+    'Angular',
+    'Next JS',
+    'React JS',
+    'Vue JS',
+    'Keystone JS',
+    'Karma/Jasmine',
+    'Jest',
+    'Node JS',
+    'Golang',
+    'PHP',
+    'Laravel Framework',
+    'Java Spring Boot',
+    'CSS/SCSS/SASS',
+    'Flutter',
+  ],
+  workflows: [
+    'Clean Architecture Code',
+    'Test Driven Development',
+    'Trunk Development',
+    'Gitlab CI/CD, Jenskin, SonarQube Scanner',
+    'Cross Browser Testing & Debugging',
+    'Cross Functional Teams',
+    'Agile Development & Scrum Method',
+    'Micro Frontend Architecture',
+    'Systems Development Life Cycle',
+  ],
+  education: [
+    {
+      period: '2018 - 2023',
+      location: 'State University Of Jakarta',
+      title: 'Bachelor Of Education',
+      value: '3.69',
+    },
+    {
+      period: '2016 - 2018',
+      location: 'SMK Negeri 10 Jakarta',
+      title: 'High School Software Engineering',
+      value: '8.3',
+    },
+  ],
+  experience: [
+    {
+      period: 'June 2023 - Present',
+      location: 'PT. Pakar Digital Global (Paper.Id)',
+      title: 'Senior Frontend Enginner',
+      description:
+        'As a senior frontend web developer specializing in the use of the Angular programming language, I assist in the development of micro-based applications for clients, especially Enterprise Products, using clean architecture methods, trunk-based development and test-based development practices. Apart from that, I use Scrum for project management. Products that focus on finance and invoicing.',
+    },
+    {
+      period: 'February 2022 - June 2023',
+      location: 'PT. Ako Media Asia (SALT)',
+      title: 'Senior Frontend Developer',
+      description:
+        'As a senior frontend web developer who specializes in using the Angular programming language, I assist in the development of micro-based applications for clients, particularly Telkomsel, utilizing clean architecture methods, trunk-based development, and test-driven development practices. Additionally, I employ Scrum for project management.',
+    },
+    {
+      period: 'December 2021 - May 2023',
+      location: 'PT. Media Baru Internasional (MoGawe)',
+      title: 'Tech Manager',
+      description:
+        'As a technology manager, my responsibilities include conducting research to implement the latest technological advancements and leading a team of frontend web developers skilled in Angular, backend developers using Java Spring Boot, and mobile application developers proficient in Flutter. I also oversee server management using the Google Cloud Console and maintain direct coordination with the CEO to ensure efficient company management.',
+    },
+    {
+      period: 'August 2020 - December 2021',
+      location: 'PT. Media Baru Internasional (MoGawe)',
+      title: 'Web Developer',
+      description:
+        'As a web frontend developer skilled in Angular, I specialize in developing micro-based applications, including work management and data research applications. I also implement Scrum project management methodologies to ensure the success of my projects.',
+    },
+    {
+      period: 'July 2018 - September 2022',
+      location: 'CV. Inti Multi Solusi',
+      title: 'Fullstack Developer',
+      description:
+        'As a full-stack programmer, I have expertise in using various programming languages and frameworks such as Laravel, CodeIgniter, Android Native, and Node.js. My work involves developing various applications and IT solutions for clients, with a focus on government clients such as the Ministry of Communication and Informatics, the Ministry of Investment, and the Ministry of Social Affairs.',
+    },
+    {
+      period: 'April 2018 - September 2018',
+      location: 'PT. SEVA SOLUSI DIGITAL (Virallo)',
+      title: 'Junior Frontend Developer',
+      description:
+        'As a junior frontend web developer proficient in Angular, my role involves developing web applications to manage investment programs and other applications such as danalaut.id.',
+    },
+    {
+      period: 'April 2017 - August 2017',
+      location: 'PT. Artivisi Intermedia',
+      title: 'Junior Fullstack Developer Intern',
+      description:
+        'I am completing an internship as a requirement for graduation from vocational high school, where I am learning to use Java and Laravel programming languages.',
+    },
+  ],
+  award: [
+    'Sci-Fi Hardware Hackathon',
+    'Sertifikasi Garuda Emas BNSP',
+    'Politeknik LP3I Jakarta Campus',
+    'HackerRank Skills verification test for Angular',
+    'Tutors Backend Developer Using PHP At Secangkir Ilmu',
+    'Tutors AR/VR Using Unity At Secangkir Ilmu',
+    'Establish an educational organization to provide courses to the general public in Indonesia (Secangkir Ilmu)',
+    'Resource persons at the ministry of communication and information related to the Reporting Application',
+    'Resource persons at the ministry of communication and information related to the GIS Application',
+    'Resource persons at the ministry of communication and information related to the Computer Assisted Test',
+    "As a speaker 'How To Start Professional Career as Web Developer' At Klasspro.id",
+    "As a speaker 'Menghadapi Era Society 5.0 dengan Skill Digital' At Secangkir Ilmu",
+  ],
+  latestWork: [
+    {
+      title: 'Paper.id',
+      description: `Paper.id is a billing and payment platform between businesses
+      that can be used by SMEs up to large corporations. With
+      Paper.id, transactions between buyers and suppliers become
+      easier. Suppliers can receive payments faster through various
+      available payment methods and automatically reconcile them all
+      in one platform. Meanwhile, buyers are free to choose from
+      various payment methods.`,
+      link: 'https://www.paper.id',
+      picture: 'assets/images/paper.png',
+    },
+    {
+      title: 'Investortrust.id',
+      description: `Investortrust.id is an independent data and economic news portal
+          that focuses on business, finance, direct investment, and
+          portfolio investment, especially in the capital market.`,
+      link: 'https://www.investortrust.id/',
+      picture: 'assets/images/investortrust.png',
+    },
+    {
+      title: 'CMS Investortrust.id',
+      description: `Content Management System for manage content in Investortrust.id
+        is an independent data and economic news portal that focuses on
+        business, finance, direct investment, and portfolio investment,
+        especially in the capital market.`,
+      link: 'https://www.cms.investortrust.id/',
+      picture: 'assets/images/cms-investortrust.png',
+    },
+    {
+      title: 'CROX',
+      description: `CROX is a website for conducting tests or evaluations on the
+          services and usability of digital products online. Joining as a
+          CROX Tester will provide you with numerous benefits. So,
+          register yourself now and enjoy the advantages.`,
+      link: 'https://crox.id',
+      picture: 'assets/images/crox.png',
+    },
+    {
+      title: 'MoGawe Business',
+      description: `MoGawe Bisnis is a web-based application designed for
+        businesspeople to simplify and manage various types of work in
+        their business. The application is connected to an Android
+        mobile application that offers the opportunity to earn income of
+        at least IDR 200,000 per day by completing simple tasks.`,
+      link: 'https://bisnis.mogawe.id/',
+      picture: 'assets/images/mogawe-bisnis.png',
+    },
+    {
+      title: 'Adeya Mobile Apps',
+      description: `Adeya in Greek is Licensing, Adeya SFR SOR stands for Radio
+        Frequency Spectrum Service Data Assistant and Radio Operator
+        Certification. This Mobile Application is devoted to Radio
+        Station Licensing Service (ISR) and REOR Certification. With
+        Adeya, it is hoped that SDPPI and ISR holders will get closer to
+        licensing services for the use of radio frequency spectrum, data
+        services and REOR certification services. It also supports the
+        ease and speed of access to information. This application is
+        also an alternative choice for service media platforms other
+        than service counters, contact center 159, web elicensing and
+        SiDia`,
+      link: 'https://play.google.com/store/apps/details?id=com.kominfo.sfrsorapp&hl=en_US',
+      picture: 'assets/images/adeya.png',
+    },
+    {
+      title: 'Data Validation Of Frequency Radio (ISR QR CODE)',
+      description: `A project of the Indonesian Ministry of Communication and
+        Information Technology in making radio station registration
+        applications and permits as well as validating radio station
+        licenses, using Laravel.`,
+      link: 'https://isrcode.postel.go.id/public/login',
+      picture: 'assets/images/isrcode.png',
+    },
+    {
+      title: 'Website Certification (REOR)',
+      description: `The project of the Ministry of Communication and Information
+        Technology of the Republic of Indonesia in making certification
+        and training print, using PHP YII.`,
+      link: 'https://reor.postel.go.id/',
+      picture: 'assets/images/reor.png',
+    },
+    {
+      title: 'COMPUTER ASSISTED TEST (CAT)',
+      description: `A project of the Indonesian Ministry of Communication and
+        Information Technology in making Computer Assisted Test, using
+        Laravel.`,
+      link: 'https://cat.postel.go.id/',
+      picture: 'assets/images/cat.png',
+    },
+    {
+      title: 'QUEUE SYSTEM',
+      description: `Investment Coordinating Board project in creating an online
+          consultation queue system, using Laravel.`,
+      link: 'https://antrian.bkpm.go.id/registrasi/',
+      picture: 'assets/images/bkpm.png',
+    },
+  ],
+};

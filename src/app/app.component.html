@@ -1,0 +1,170 @@
+<div>
+  <header class="arm-header" id="site-header">
+    <div class="container">
+      <div class="arm-header-inner">
+        <a href="/" class="arm-logo arm-logo-title-web">
+          <span>A</span>{{ profile.fullName }}</a
+        >
+        <a href="/" class="arm-logo arm-logo-title-mobile">
+          <span>A</span>{{ profile.shortName }}</a
+        >
+        <ul class="arm-social">
+          <li>
+            <a [href]="profile.social.github" target="_blank"
+              ><i class="ri-github-fill"></i
+            ></a>
+          </li>
+          <li>
+            <a [href]="profile.social.linkedin" target="_blank"
+              ><i class="ri-linkedin-fill"></i
+            ></a>
+          </li>
+          <li>
+            <a [href]="profile.contact.whatsapps" target="_blank"
+              ><i class="ri-whatsapp-line"></i
+            ></a>
+          </li>
+          <li>
+            <a
+              style="color: white; cursor: pointer"
+              (click)="copyToClipboard(profile.contact.phone)"
+              ><i class="ri-phone-fill"></i
+            ></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </header>
+</div>
+<div class="arm-banner" id="bannerData" #bannerData>
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5 col-xxl-5">
+        <figure>
+          <img
+            class="arm-logo-image"
+            width="853"
+            height="845"
+            ngSrc="assets/images/profile.png"
+            priority
+            alt="Profile Image"
+          />
+        </figure>
+      </div>
+      <div class="col-12 col-sm-12 col-md-7 col-lg-7 col-xl-7 col-xxl-7">
+        <section>
+          <h1>
+            <span>HI THERE</span>
+            <div [innerHTML]="profile.title"></div>
+          </h1>
+          <ul class="arm-numbervalulist">
+            <li>
+              <strong>{{ profile.count.experience }}+</strong>
+              <span>Experience</span>
+            </li>
+            <li>
+              <strong>{{ profile.count.projects }}+</strong>
+              <span>Projects</span>
+            </li>
+            <li>
+              <strong>{{ profile.count.client }}+</strong>
+              <span>Happy Clients</span>
+            </li>
+          </ul>
+        </section>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="arm-about-section" id="aboutData" #aboutData>
+  <div class="container">
+    <section>
+      <h2 class="arm-heading">About Me</h2>
+      <div [innerHTML]="profile.aboutMe"></div>
+    </section>
+  </div>
+</div>
+
+<div class="arm-button-sec text-center download-resume">
+  <a (click)="downloadResume()" class="arm-button" target="_blank">
+    {{ isLoading ? isLoadingNumber + " Loading..." : "Download Resume" }}
+    <!-- <span *ngIf="isLoading" class="arm-loading-container">
+      <span class="dot dot-1"></span>
+      <span class="dot dot-2"></span>
+      <span class="dot dot-3"></span>
+    </span> -->
+  </a>
+</div>
+
+<div class="arm-skills-section" id="skillsData" #skillsData>
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+        <h2 class="arm-heading">Core Skills</h2>
+        <ul class="arm-skills-list">
+          <li *ngFor="let skills of profile.coreSkills">{{ skills }}</li>
+        </ul>
+      </div>
+      <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+        <h2 class="arm-heading">Workflow</h2>
+        <ul class="arm-skills-list">
+          <li *ngFor="let workflow of profile.workflows">
+            {{ workflow }}
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="arm-experience-section" id="educationData" #educationData>
+  <div class="container">
+    <h2 class="arm-heading">Education</h2>
+    <div class="row arm-experience-list">
+      <div
+        class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 mb-5"
+        *ngFor="let education of profile.education"
+      >
+        <section>
+          <span class="arm-year">{{ education.period }}</span>
+          <h3 class="arm-officename">{{ education.location }}</h3>
+          <span class="arm-department">{{ education.title }}</span>
+          <p>GPA: {{ education.value }}</p>
+        </section>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="arm-experience-section" id="experienceData" #experienceData>
+  <div class="container">
+    <h2 class="arm-heading">Work Experience</h2>
+    <div class="row arm-experience-list">
+      <div
+        class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 mb-5"
+        *ngFor="let experience of profile.experience"
+      >
+        <section>
+          <span class="arm-year">{{ experience.period }}</span>
+          <h3 class="arm-officename">{{ experience.location }}</h3>
+          <span class="arm-department">{{ experience.title }}</span>
+          <p>
+            {{ experience.description }}
+          </p>
+        </section>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="arm-skills-section" id="awardData" #awardData>
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+        <h2 class="arm-heading">Awards & Certifications</h2>
+        <ul class="arm-award">
+          <li *ngFor="let award of profile.award">{{ award }}</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
